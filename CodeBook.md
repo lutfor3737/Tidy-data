@@ -1,5 +1,7 @@
 Data Source
 Following is the data source for this project.
+
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
