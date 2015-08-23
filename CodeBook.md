@@ -1,9 +1,8 @@
-Data Source
+**Data Source**
 Following is the data source for this project.
 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -25,4 +24,10 @@ The dataset includes the following files:
     'train/y_train.txt': Training labels.
     'test/X_test.txt': Test set.
     'test/y_test.txt': Test labels.
+
+**Steps:**
+1. merge test and traning data
+2. Extract only mean and standard deviation
+3. Adding aprproprite label to fulfill tidy data properties
+4. make independent variable with the avg of each variable for each activity and each subject 
 
